@@ -1,0 +1,33 @@
+header#cabecalho img#icone{
+	display: none;
+}
+
+nav#menu ul{
+	left: 45%;
+	font-size: 11pt;
+}
+
+header#cabecalho{
+	background: none;
+}
+
+header#cabecalho h2{
+	width: 50%;	
+
+}
+
+div#interface{
+	width: 95%;
+	margin: -2.80% auto 0% auto;
+	padding: 1.04% 1.04% 1.04% 1.04%;
+}
+
+section#corpo{
+	width: auto;
+	border-right: none;
+}
+
+aside#lateral{
+	width: 95%;
+	float: left;
+}
