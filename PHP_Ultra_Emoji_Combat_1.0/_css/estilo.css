@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+input, button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: -moz-linear-gradient(
+            top,
+            #ff4242 0%,
+            #660000);
+    background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#ff4242),
+            to(#660000));
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #40010c;
+    -moz-box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 2px rgba(255,255,255,1);
+    -webkit-box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 2px rgba(255,255,255,1);
+    box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 2px rgba(255,255,255,1);
+    text-shadow:
+            0px -1px 0px rgba(000,000,000,0.4),
+            0px 1px 0px rgba(255,255,255,0.3);
+    margin-top: 1%;
+}
+
+header#cabecalho h1{
+    font-family: 'Hanalei Fill', cursive;
+    color: #cc0000;
+    font-size: 36pt;
+    text-align: center;
+    margin-top: 1%;
+}
+
+header#cabecalho h2{
+    font-family: 'Indie Flower', cursive;
+    color: #2d1106;
+    font-size: 23pt;
+    text-align: center;
+    margin-top: -35px;
+}
+
+section#disputa p{
+    font-family: arial, sans-serif;
+    font-size: 13pt; 
+    text-align: center; 
+}
+
+section#corpo{
+    font-family: arial, sans-serif;
+    font-size: 11pt;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+section#corpo h1{
+    font-family: 'Hanalei Fill', cursive;
+    color: #OO0000;
+    font-size: 26pt;
+    text-align: center;
+    margin-top: 1%;
+}
+section#corpo p{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 15pt;
+}
+
+section#corpo h5{
+    font-family: calibri, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12pt;
+    font-weight: normal
+}
+section#corpo h4{
+    font-family: calibri, sans-serif;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12pt;
+    font-weight: normal
+}
+section#corpo a{
+    margin-left: 47%;
+}
+fieldset#cartel{
+    display: block;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 300px;
+}
+
+footer#rodape{
+    clear: both;
+    margin-top: 15%;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+    font-family: arial, sans-serif;
+    text-align: center;
+}
